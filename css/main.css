@@ -65,7 +65,7 @@
        height: 600px;
        background: url('../img/b1.jpg') no-repeat;
        background-size: cover;
-       position: relative;
+       /* position: relative; */
    }
    
    .carousel__overlay {
@@ -77,28 +77,40 @@
        opacity: 0.4;
        filter: brightness(50%);
    }
-   
-   .carousel__detail {
+   /* .carousel__detail {
        position: absolute;
        top: 50%;
        left: 50%;
        transform: translate(-50%, -50%);
        color: #fff;
+   } */
+   
+   .carousel__detail1 {
+       text-align: center;
+       color: white;
+       width: 80%;
+       margin: auto;
+       margin-top: 15%;
+       /* position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       z-index: 4; */
    }
    
-   .carousel__detail h1 {
+   .carousel__detail1 h1 {
        text-transform: uppercase;
        letter-spacing: 6px;
        font-weight: none;
-       font-size: 3.5rem;
+       font-size: 3rem;
    }
    
-   .carousel__detail p {
+   .carousel__detail1 p {
        letter-spacing: 1px;
        font-size: 14px;
    }
    
-   .carousel__detail .btn-about-us {
+   .carousel__detail1 .btn-about-us {
        background-color: transparent;
        padding: 10px 30px;
        color: #fff;
@@ -109,7 +121,7 @@
        transition: all 1s;
    }
    
-   .carousel__detail .btn-about-us:hover {
+   .carousel__detail1 .btn-about-us:hover {
        /* background-color: #8067f8;
        color: #fff;
        border: none;
